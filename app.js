@@ -5,7 +5,7 @@ var mongoose = require('mongoose');
 var port = process.env.PORT;
 var host = process.env.IP;
 
-require('./dbGraceful');
+require('./gracefulDB');
 
 
 app.get('/', function(req, res){
